@@ -13,6 +13,8 @@ Project name: **HE Benchmarking Framework - HEBench**
 ## What is HEBench
 A flexible benchmarking framework for Homomorphic Encryption that allows fair performance comparison among different implementations (in hardware and/or software) of a collection of homomorphic encryption workloads.
 
+HEBench project is hosted at [https://github.com/hebench](https://github.com/hebench) .
+
 ### What is Homomorphic Encryption
 Homomorphic Encryption (HE) refers to a form of encryption which enables computation in the encrypted domain without requiring access to a private key. This technology enables unprecedented capabilities for secure outsourced computation.
 
@@ -26,9 +28,9 @@ A backend is a shared library that exposes its functionality through the API Bri
 With this release, some reference backends have been published as well. As reference, they show how users might implement their own backends to fit their needs.
 
 ## Software Components and Architecture
-![Graphical representation of software components and architecture](https://github.com/hebench/frontend/blob/a84febbfe0852ebedbb11bfd13b01c7037caeb2a/docsrc/images/architecture.png)
+![Graphical representation of software components and architecture](https://github.com/hebench/frontend/blob/main/docsrc/images/architecture.png)
 
-**Test Harness** and **backend Loader** (w/ extensible workload framework): Main front-end component that drives the benchmarking of the workload operations.
+**Test Harness** and **backend Loader** (w/ extensible workload framework): Main frontend component that drives the benchmarking of the workload operations.
 
 Currently supported categories:
 
@@ -49,13 +51,13 @@ The dynamic backend loader allows the Test Harness to dynamically link to any ba
 
 C++ wrapper is a thin wrapper around the API Bridge. It offers a utility library that encapsulates common functionality expected by the API Bridge and hides boilerplate code, easing the development of backends by users.
 
-A backend example is shipped with the front-end that contains a simple implementation of a workload in clear-text. This is intended to be used as a starting point for any new backends.
+A backend example is shipped with the frontend that contains a simple implementation of a workload in clear-text. This is intended to be used as a starting point for any new backends.
 
 **Clear text backend reference (CPU)**: A reference backend that performs the operations of all supported workloads in clear text. This is intended as an extended reference on how to implement a fully functional backend, and as a unit test for the Test Harness.
 
 **SEAL backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses Microsoft SEAL library for the HE operations.
 
-**PALISADE backend reference (CPU)**: A reference back-end that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses PALISADE lattice cryptography library for the HE operations.
+**PALISADE backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses PALISADE lattice cryptography library for the HE operations.
 
 ## What Can Be Done with HEBench
 Out of the box, users can run the benchmark from the API Bridge example, clear text, reference SEAL, and reference PALISADE backends. These run on CPU using the specified API support.
@@ -72,4 +74,4 @@ For a list of available backends, visit [Published Backends](hebench_published_b
 
 Check out the [HEBench Quick Start Guide](quickstart_guide.md) to get started with running  benchmarks.
 
-Find the complete reference to HEBench in the [Documentation](DOCLINK).
+Find the complete reference to HEBench in the [Documentation](https://hebench.github.io/frontend).

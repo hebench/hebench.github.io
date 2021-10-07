@@ -9,5 +9,8 @@ Example Backend   | Example simple backend for use as a reference (built with AP
 
 # Third-Party Backends
 
-  Repository   | Description
+Repository | Description
 -------------- | ------------
+N/A | N/A
+
+Back to [HEBench Home](https://hebench.github.io/)

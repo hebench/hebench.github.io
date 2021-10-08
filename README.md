@@ -28,7 +28,7 @@ A backend is a shared library that exposes its functionality through the API Bri
 With this release, some reference backends have been published as well. As reference, they show how users might implement their own backends to fit their needs.
 
 ## Software Components and Architecture
-![Graphical representation of software components and architecture](https://github.com/hebench/frontend/blob/main/docsrc/images/architecture.png)
+![Graphical representation of software components and architecture](https://github.com/hebench/frontend/blob/main/docsrc/images/architecture.png?raw=true)
 
 **Test Harness** and **backend Loader** (w/ extensible workload framework): Main frontend component that drives the benchmarking of the workload operations.
 

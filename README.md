@@ -9,6 +9,7 @@ Project name: **HE Benchmarking Framework - HEBench**
 - [What Can Be Done with HEBench](#what-can-be-done-with-hebench)
 - [Available Backends](hebench_published_backends.md)
 - [Getting Started](quickstart_guide.md)
+- [HEBench Governance](governance.md)
 
 ## What is HEBench
 A flexible benchmarking framework for Homomorphic Encryption that allows fair performance comparison among different implementations (in hardware and/or software) of a collection of homomorphic encryption workloads.
@@ -75,3 +76,7 @@ For a list of available backends, visit [Published Backends](hebench_published_b
 Check out the [HEBench Quick Start Guide](quickstart_guide.md) to get started with running  benchmarks.
 
 Find the complete reference to HEBench in the [Documentation](https://hebench.github.io/frontend).
+
+## HEBench Governance
+Policies and procedures that manage the HEBench project and community can be found in the [Governance document](governance.md).
+

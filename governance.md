@@ -2,6 +2,8 @@
 
 The purpose of this document is to establish the initial governance for HEBench community with defined rules that we can adhere to during the initial stages of its creation.
 
+This document DOES NOT supersede the code of conduct of HEBench.
+
 ## Revision History
 
 This is a living document, and it is expected to be updated over time to better meet the needs of the HEBench community.
@@ -97,12 +99,19 @@ Emeritus members can only be reinstated to the Steering Team by a steering vote.
 
 ## Voting
 
-Only the Steering team has voting rights. The members of the Steering team may also call a vote on any topic. A topic cannot be voted on more than once a month, or if there have been new developments on that particular topic.
+Only the Steering team has voting rights. The members of the Steering team may call a vote on any topic proposal after discussion among the members.
 
-All decisions are reached by majority voting. While any member can abstain, only "yes" and "no" votes count towards a decision.
+While discouraged, any member can abstain or not vote. However, only "yes" and "no" votes count towards a decision. Voting "no" is the only way to express opposition to a proposal. A voting result with more "yes" than "no" moves the proposal forward; otherwise, the proposal fails.
+
+Restrictions on voting:
+- There must only be one vote active on a particular topic at any time.
+- A topic cannot be voted on more than once a month.
+- Topic spamming or bullying of any kind is strictly forbiden.
+- There must always be the options to vote "yes", "no".
+- There must always be the option to abstain on a vote, and it is the default option if a member doesn't vote.
 
 Before voting on a decision, involved members present the topic and it is discussed among the Steering team. Other teams may pass recommendations up to the Steering team for a vote or a topic. Decisions that require actions by other teams are communicated to the appropriate team to execute.
 
 **Action** (to be edited once completed): Voting platform(s) and the number of days required for a vote to remain open must be decided during the first Steering meeting.
 
-This document can only be changed by Steering Team on a 2/3 vote.
+This document can only be changed by a vote where 2/3 of all the members on the Steering team vote "yes" on the changes.

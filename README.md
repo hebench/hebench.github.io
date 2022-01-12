@@ -10,6 +10,7 @@ Project name: **HE Benchmarking Framework - HEBench**
 - [Available Backends](hebench_published_backends.md)
 - [Getting Started](quickstart_guide.md)
 - [HEBench Governance](governance.md)
+- [HEBench Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## What is HEBench
 A flexible benchmarking framework for Homomorphic Encryption that allows fair performance comparison among different implementations (in hardware and/or software) of a collection of homomorphic encryption workloads.
@@ -80,3 +81,5 @@ Find the complete reference to HEBench in the [Documentation](https://hebench.gi
 ## HEBench Governance
 Policies and procedures that manage the HEBench project and community can be found in the [Governance document](governance.md).
 
+## HEBench Code of Conduct
+Code of Conduct global rules for the HEBench project and community can be found in the [Code of Conduct](CODE_OF_CONDUCT.md)

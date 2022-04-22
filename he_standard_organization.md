@@ -10,8 +10,4 @@ lack of structured and consistent measurements of full stack performance.
           
 <img src="./images/place_holder_480_256.png" align="center" width="18.9%"> &nbsp; <img src="./images/place_holder_480_256.png" align="center" width="18.9%"> &nbsp; <img src="./images/place_holder_480_256.png" align="center" width="18.9%"> &nbsp; <img src="./images/place_holder_480_256.png" align="center" width="18.9%"> &nbsp; <img src="./images/place_holder_480_256.png" align="center" width="18.9%">     
 
------------------------------------------
-            
-<img src="./images/place_holder_480_256.png" align="center" width="19.6%">  <img src="./images/place_holder_480_256.png" align="center" width="19.6%">  <img src="./images/place_holder_480_256.png" align="center" width="19.6%">  <img src="./images/place_holder_480_256.png" align="center" width="19.6%">  <img src="./images/place_holder_480_256.png" align="center" width="19.6%">
-          
-<img src="./images/place_holder_480_256.png" align="center" width="19.6%"> <img src="./images/place_holder_480_256.png" align="center" width="19.6%"> <img src="./images/place_holder_480_256.png" align="center" width="19.6%"> <img src="./images/place_holder_480_256.png" align="center" width="19.6%"> <img src="./images/place_holder_480_256.png" align="center" width="19.6%">  
+

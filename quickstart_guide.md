@@ -1,11 +1,19 @@
-# HEBench - Getting Started
+# Getting Started
+
+- [HEBench Home](README.md)
+- [About HEBench](about_hebench.md)
+- [Available Backends](hebench_published_backends.md)
+- Getting Started
+  - [Benchmarking a Reference Backend](#benchmarking-a-reference-backend)
+  - [Benchmarking a Custom Backend](#benchmarking-a-custom-backend)
+  - [Adding New Workloads](#adding-new-workloads)
+  - [References](#references)
+- [Governance](governance.md)
+- [Code of Conduct](conduct.md)
+
+<br>
 
 To get a jump start on HEBench, users can benchmark one of the published reference backends. These backends have been designed to build and run with minimal configuration requirements.
-
-- [Benchmarking a Reference Backend](#benchmarking-a-reference-backend)
-- [Benchmarking a Custom Backend](#benchmarking-a-custom-backend)
-- [Adding New Workloads](#adding-new-workloads)
-- [References](#references)
 
 ## Benchmarking a Reference Backend
 
@@ -99,4 +107,4 @@ If there is a need to benchmark a workload that is not officially supported by H
 
 <br/>
 
-Back to [HEBench Home](https://hebench.github.io/).
+Back to [HEBench Home](README.md)

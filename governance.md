@@ -1,4 +1,19 @@
-# HEBench Community Governance
+# Community Governance
+
+- [HEBench Home](README.md)
+- [About HEBench](about_hebench.md)
+- [Available Backends](hebench_published_backends.md)
+- [Getting Started](quickstart_guide.md)
+- Governance
+  - [Revision History](#revision-history)
+  - [GitHub Teams](#github-teams)
+  - [HEBench Framework](#hebench-framework)
+  - [Teams & Roles](#teams-and-roles)
+  - [Emeritus Status](#emeritus-status)
+  - [Voting](#voting)
+- [Code of Conduct](conduct.md)
+
+<br>
 
 The purpose of this document is to establish the initial governance for HEBench community with defined rules that we can adhere to during the initial stages of its creation.
 
@@ -14,7 +29,7 @@ This is a living document, and it is expected to be updated over time to better 
 
 The following are the existing GitHub teams with their purpose and permissions.
 
-Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Permissions | Purpose
+Name  | Permissions | Purpose
 -|-|-
 **hebench-dev** | Can clone, read any branch, and write/push to their own branches. Can manage PRs (Pull Requests) and issues. | Developer access to HEBench org. All new members start here.
 **hebench-collab** | All hebench-dev permissions + can approve PRs (per repo using CODEOWNERS) and start CI (Continuous Integration). | Free up maintainers from constantly doing code reviews for all repos.
@@ -26,7 +41,7 @@ Meritocracy based, members in **hebench-dev** can be upgraded to **hebench-colla
 
 HEBench framework (HEBench) is the HEBench community tool. To be considered official, all benchmarking results must be obtained through HEBench and validated by the HEBench community as specified later.
 
-## Teams & Roles
+## Teams and Roles
 
 Here are defined the primary teams participating in HEBench community activities.
 
@@ -56,7 +71,6 @@ Founding organizations will be the initial members of the Steering Team. New mem
 
 Moderator role: A moderator for Steering Team meetings is required. Initial moderator will be initial founder (Intel Corporation). Topic to select new moderator can be brought up by Steering Team. Moderator tasks include, but not limited to, steering each team meeting with a list of topics to discuss, addressing each member on their turn, and keeping meeting minutes.
 
-**Action** (to be edited once completed): Frequency of Steering Team meetings and voting sessions must be selected during the first Steering Team meeting.
 
 ### Framework Development Team
 
@@ -112,6 +126,9 @@ Restrictions on voting:
 
 Before voting on a decision, involved members present the topic and it is discussed among the Steering team. Other teams may pass recommendations up to the Steering team for a vote or a topic. Decisions that require actions by other teams are communicated to the appropriate team to execute.
 
-**Action** (to be edited once completed): Voting platform(s) and the number of days required for a vote to remain open must be decided during the first Steering meeting.
 
 This document can only be changed by a vote where 2/3 of all the members on the Steering team vote "yes" on the changes.
+
+<br/>
+
+Back to [HEBench Home](README.md)

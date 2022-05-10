@@ -1,4 +1,20 @@
-# Contributor Covenant Code of Conduct
+# Code of Conduct
+
+- [HEBench Home](README.md)
+- [About HEBench](about_hebench.md)
+- [Available Backends](hebench_published_backends.md)
+- [Getting Started](quickstart_guide.md)
+- [Governance](governance.md)
+- Code of Conduct
+  - [Our Pledge](#our-pledge)
+  - [Our Standards](#our-standards)
+  - [Enforcement Responsibilities](#enforcement-responsibilities)
+  - [Scope](#scope)
+  - [Enforcement](#enforcement)
+  - [Enforcement Guidelines](#enforcement-guidelines)
+  - [Attribution](#attribution)
+
+<br>
 
 This is the global default code of conduct for HEBench. Individual child
 repositories may expand upon it, but not invalidate or conflict with these
@@ -130,3 +146,7 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations .
+
+<br/>
+
+Back to [HEBench Home](README.md)

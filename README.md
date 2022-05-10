@@ -1,85 +1,34 @@
 # HEBench Home
 
-Project name: **HE Benchmarking Framework - HEBench**
 
-- [What is HEBench](#what-is-hebench)
-  - [What is Homomorphic Encryption](#what-is-homomorphic-encryption)
-- [What Does HEBench Offer](#what-does-hebench-offer)
-- [Software Components and Architecture](#software-components-and-architecture)
-- [What Can Be Done with HEBench](#what-can-be-done-with-hebench)
+- HEBench Home
+  - [The HEBench Organization](#the-hebench-organization)
+  - [Founding Members](#founding-members)
+- [About HEBench](about_hebench.md)
 - [Available Backends](hebench_published_backends.md)
 - [Getting Started](quickstart_guide.md)
-- [HEBench Governance](governance.md)
-- [HEBench Code of Conduct](CODE_OF_CONDUCT.md)
+- [Governance](governance.md)
+- [Code of Conduct](conduct.md)
 
-## What is HEBench
-A flexible benchmarking framework for Homomorphic Encryption that allows fair performance comparison among different implementations (in hardware and/or software) of a collection of homomorphic encryption workloads.
+<img src="./docs/assets/logo.png" align="center" width="1">
 
-HEBench project is hosted at [https://github.com/hebench](https://github.com/hebench) .
+## The HEBench Organization
+Homomorphic Encryption (HE) is considered by some to be the holy grail of cryptography. It enables computation on encrypted data without the need to ever decrypt it throughout its entire lifecycle. HE is currently undergoing a standardization process, and there is a growing awareness and an increasing number of use cases where HE finds application. However, this contrasts with the lack of a common and fair evaluation and benchmarking framework that can objectively showcase the performance and scalability of the available HE alternatives in the most widespread workflows.
 
-### What is Homomorphic Encryption
-Homomorphic Encryption (HE) refers to a form of encryption which enables computation in the encrypted domain without requiring access to a private key. This technology enables unprecedented capabilities for secure outsourced computation.
+The HEBench Organization is aimed at providing the tools to assist in accelerating innovation in HE benchmarking to address the lack of structured and consistent measurements of full stack performance. To this end, we are contributing the **Homomorphic Encryption Benchmarking Framework - HEBench** for the open-source community.
 
-More information can be found at [Homomorphic Encryption Standardization](https://homomorphicencryption.org/introduction).
+The HEBench code repositories are hosted in GitHub here: [https://github.com/hebench](https://github.com/hebench)
 
-## What Does HEBench Offer
-The main objective of HEBench is to allow users to create backends that implement their solutions to a set of supported workloads to be benchmarked by HEBench's Test Harness. To this end, HEBench offers a flexible C API that enables implementation of such backends to test HE APIs, algorithms, optimizations, hardware, etc.
 
-A backend is a shared library that exposes its functionality through the API Bridge interface, compatible with the Test Harness. A backend can focus on specific workloads to benchmark; it does not need to implement every possible workload supported by Test Harness.
 
-With this release, some reference backends have been published as well. As reference, they show how users might implement their own backends to fit their needs.
+## Founding Members
 
-## Software Components and Architecture
-![Graphical representation of software components and architecture](https://github.com/hebench/frontend/blob/main/docsrc/images/architecture.png?raw=true)
-
-**Test Harness** and **backend Loader** (w/ extensible workload framework): Main frontend component that drives the benchmarking of the workload operations.
-
-Currently supported categories:
-
-* Latency: measures end-to-end latency (time to complete) for a single operation
-* Offline: measures throughput (ops/sec) that a backend can perform on a batch of data.
-
-Currently supported workloads:
-
-* Element-wise vector addition
-* Element-wise vector multiplication
-* Vector dot product
-* Matrix multiplication
-* Logistic regression inference
-
-The dynamic backend loader allows the Test Harness to dynamically link to any backend that implements the API Bridge interface.
-
-**API Bridge with C++ Wrapper** (w/ documentation and example): API Bridge offers a uniform C interface that bridges the communication between Test Harness and backends. Test Harness communicates and issues commands to backends for the operations to perform via the API Bridge. Operations and their results are validated and timed by Test Harness.
-
-C++ wrapper is a thin wrapper around the API Bridge. It offers a utility library that encapsulates common functionality expected by the API Bridge and hides boilerplate code, easing the development of backends by users.
-
-A backend example is shipped with the frontend that contains a simple implementation of a workload in clear-text. This is intended to be used as a starting point for any new backends.
-
-**Clear text backend reference (CPU)**: A reference backend that performs the operations of all supported workloads in clear text. This is intended as an extended reference on how to implement a fully functional backend, and as a unit test for the Test Harness.
-
-**SEAL backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses Microsoft SEAL library for the HE operations.
-
-**PALISADE backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses PALISADE lattice cryptography library for the HE operations.
-
-## What Can Be Done with HEBench
-Out of the box, users can run the benchmark from the API Bridge example, clear text, reference SEAL, and reference PALISADE backends. These run on CPU using the specified API support.
-
-Flexibility to create new backends is already in place and users are encouraged to create their own to benchmark their HE implementations in whichever hardware or system it may be hosted.
-
-Users can benchmark their own implementations with HEBench (by creating their own backends) and compare results with other implementations of published backends. The framework is designed to give a fair shot to all users to put their best foot forward when implementing their solutions.
-
-## Available backends
-
-For a list of available backends, visit [Published Backends](hebench_published_backends.md).
-
-## Getting Started
-
-Check out the [HEBench Quick Start Guide](quickstart_guide.md) to get started with running  benchmarks.
-
-Find the complete reference to HEBench in the [Documentation](https://hebench.github.io/frontend).
-
-## HEBench Governance
-Policies and procedures that manage the HEBench project and community can be found in the [Governance document](governance.md).
-
-## HEBench Code of Conduct
-Code of Conduct global rules for the HEBench project and community can be found in the [Code of Conduct](CODE_OF_CONDUCT.md)
+<p align="center">
+<img src="./docs/assets/images/algorand.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="./docs/assets/images/cryptolab.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./docs/assets/images/deloitte.png" align="center" width="25%">
+</p>
+<p align="center">
+<img src="./docs/assets/images/duality.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./docs/assets/images/ibm.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./docs/assets/images/intel.png" align="center" width="25%">
+</p>
+<p align="center">
+<img src="./docs/assets/images/ku_leuven.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./docs/assets/images/microsoft.png" align="center" width="25%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./docs/assets/images/tune_insight.png" align="center" width="25%">
+</p>

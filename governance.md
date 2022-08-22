@@ -6,16 +6,16 @@
 - [Getting Started](quickstart_guide.md)
 - Governance
   - [Revision History](#revision-history)
-  - [GitHub Teams](#github-teams)
   - [HEBench Framework](#hebench-framework)
-  - [Teams & Roles](#teams-and-roles)
+  - [HEBench Community Membership](#hebench-community-membership)
   - [Emeritus Status](#emeritus-status)
   - [Voting](#voting)
+  - [Submissions to HEBench](#submissions-to-hebench)
 - [Code of Conduct](conduct.md)
 
 <br>
 
-The purpose of this document is to establish the initial governance for HEBench community with defined rules that we can adhere to during the initial stages of its creation.
+The purpose of this document is to establish the governance for the HEBench community with defined rules to guide the growth of the community.
 
 This document DOES NOT supersede the code of conduct of HEBench.
 
@@ -24,36 +24,40 @@ This document DOES NOT supersede the code of conduct of HEBench.
 This is a living document, and it is expected to be updated over time to better meet the needs of the HEBench community.
 
 * 0.1 (Dec 7, 2021) Initial draft.
-
-## GitHub Teams
-
-The following are the existing GitHub teams with their purpose and permissions.
-
-Name  | Permissions | Purpose
--|-|-
-**hebench-dev** | Can clone, read any branch, and write/push to their own branches. Can manage PRs (Pull Requests) and issues. | Developer access to HEBench org. All new members start here.
-**hebench-collab** | All hebench-dev permissions + can approve PRs (per repo using CODEOWNERS) and start CI (Continuous Integration). | Free up maintainers from constantly doing code reviews for all repos.
-**hebench-maintain** | Full administration access to all repos. | Ability to change repo settings, and to perform all tasks from other GitHub teams.
-
-Meritocracy based, members in **hebench-dev** can be upgraded to **hebench-collab** to be able to approve PRs and fire off CI on a per-governance team basis.
+* 0.2 (Aug 22, 2022) Draft to add approved membership and submission changes (Approved by Steering Team on Aug 5, 2022)
 
 ## HEBench Framework
 
-HEBench framework (HEBench) is the HEBench community tool. To be considered official, all benchmarking results must be obtained through HEBench and validated by the HEBench community as specified later.
+The HEBench Framework (HEBench) is maintained by the HEBench Organization. It is a community effort spanning industry and academia to provide a standard framework for benchmarking Homomorphic Encryption. 
 
-## Teams and Roles
+To be considered official, all benchmarking results must be obtained through HEBench and validated by the HEBench community as specified in the Submissions section.
+
+## HEBench Community Membership
+
+### Membership Tiers
+
+There are four tiers of membership within the HEBench Community:
+* **Standard Membership**: As HEBench is a fully open-source community-led project, any individual that wants to contribute may be a Standard Member. Standard Members have direct access to the HEBench community-wide discussions and annoucements.
+* **Advanced Membership**: Advanced Members are Standard Members that are also part of any of the work teams. They provide direct contribution to the HEBench Framework and Community.
+* **Advisor Membership**: Advisory Members are individuals or organizations that are part of the Advisory Team. They provide expert feedback and advice to the Steering Team to aide in the decision making process.
+* **Steering Membership**: Steering Members are organization representatives that are part of the Steering Team. They form the governing body of the HEBench Organization.
+
+Membership procedures are outlined on the membership procedures page of HEBench.org.
+
+### Teams and Roles
 
 Here are defined the primary teams participating in HEBench community activities.
 
 List of HEBench community teams:
 
-* Steering Team
+* Leadership Teams
+  * Steering Team
+  * Advisory Team
 
-* Framework Development Team
-
-* Pathfinding Team
-
-* Submission Team
+* Work Teams
+  * Framework Development Team
+  * Pathfinding Team
+  * Submission Team
 
 Note: individuals may participate in multiple teams.
 
@@ -69,8 +73,13 @@ The Steering Team shall approve all changes in membership to all HEBench communi
 
 Founding organizations will be the initial members of the Steering Team. New members will be approved by the current steering team.
 
-Moderator role: A moderator for Steering Team meetings is required. Initial moderator will be initial founder (Intel Corporation). Topic to select new moderator can be brought up by Steering Team. Moderator tasks include, but not limited to, steering each team meeting with a list of topics to discuss, addressing each member on their turn, and keeping meeting minutes.
+Moderator role: A moderator for Steering Team meetings is required. Topic to select new moderator can be brought up by Steering Team. Moderator tasks include, but not limited to, steering each team meeting with a list of topics to discuss, addressing each member on their turn, and keeping meeting minutes.
 
+### Advisory Team
+
+The Advisory Team is made up of significant contributors to both Homomorphic Encryption and the HEBench Communities. They provide their expertise as feedback and advice to allow the Steering Team to make educated decisions regarding HEBench. 
+
+Advisors can sit in on the HEBench Steering meetings and may sponsor topics of discussion.
 
 ### Framework Development Team
 
@@ -97,8 +106,8 @@ This team is responsible for reviewing and validating submitted backends. While 
 This team has the following tasks:
 
 * Review implementation of submitted backends for correctness in the framework flow (make sure that each stage is performing the correct task, and not cheating in other stages).
-* Validating cryptographic security and implementation in submitted backends.  
-    Make sure that claimed cryptographic parameters are respected, and operations are performed correctly.
+* Reviewing cryptographic security and implementation in submitted backends.  
+  * Make sure that claimed cryptographic parameters are respected, and operations are performed correctly.
 * Give feedback to Steering Team and others on topics regarding the use of cryptography and how the framework, flows and workloads map to cryptographic algorithms (not necessarily to existing algorithms, but also future proof).
 
 ## Emeritus Status
@@ -128,6 +137,12 @@ Before voting on a decision, involved members present the topic and it is discus
 
 
 This document can only be changed by a vote where 2/3 of all the members on the Steering team vote "yes" on the changes.
+
+## Submissions to HEBench
+
+HEBench will be taking Backend submissions for supported workloads during a rolling submission period (e.g. the submission period is always open). Submitted Backends will undergo review by the Submissions Team and peer review by the HEBench Community. Benchmark results for the accepted Backends will be displayed in the submission section of HEBench.org. 
+
+Submission procedures are outlined on the Submissions page of HEBench.org.
 
 <br/>
 

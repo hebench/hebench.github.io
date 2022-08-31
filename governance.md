@@ -1,9 +1,9 @@
 # Community Governance
 
-- [HEBench Home](README.md)
-- [About HEBench](about_hebench.md)
-- [Available Backends](hebench_published_backends.md)
-- [Getting Started](quickstart_guide.md)
+- [HEBench Home](https://hebench.org/)
+- [About HEBench](https://hebench.org/faq#what-is-hebench)
+- [Available Backends](https://hebench.org/benchmark)
+- [Getting Started](https://hebench.org/documentation/getting-started)
 - Governance
   - [Revision History](#revision-history)
   - [HEBench Framework](#hebench-framework)
@@ -11,7 +11,7 @@
   - [Emeritus Status](#emeritus-status)
   - [Voting](#voting)
   - [Submissions to HEBench](#submissions-to-hebench)
-- [Code of Conduct](conduct.md)
+- [Code of Conduct](https://hebench.org/about/code-of-conduct)
 
 <br>
 
@@ -146,4 +146,4 @@ Submission procedures are outlined on the Submissions page of HEBench.org.
 
 <br/>
 
-Back to [HEBench Home](README.md)
+Back to [HEBench Home](https://hebench.org/)

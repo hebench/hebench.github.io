@@ -1,13 +1,13 @@
 # Available Backends
 
-- [HEBench Home](README.md)
-- [About HEBench](about_hebench.md)
+- [HEBench Home](https://hebench.org/)
+- [About HEBench](https://hebench.org/faq#what-is-hebench)
 - Available Backends
   - [Reference Backends](#reference-backends)
   - [Third-Party Backends](#third-party-backends)
-- [Getting Started](quickstart_guide.md)
-- [Governance](governance.md)
-- [Code of Conduct](conduct.md)
+- [Getting Started](https://hebench.org/documentation/getting-started)
+- [Governance](https://hebench.org/about/governance)
+- [Code of Conduct](https://hebench.org/about/code-of-conduct)
 
 <br>
 
@@ -28,4 +28,4 @@ N/A | N/A
 
 <br/>
 
-Back to [HEBench Home](README.md)
+Back to [HEBench Home](https://hebench.org/)

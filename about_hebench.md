@@ -7,10 +7,10 @@
   - [What Does HEBench Offer](#what-does-hebench-offer)
   - [Software Components and Architecture](#software-components-and-architecture)
   - [What Can Be Done with HEBench](#what-can-be-done-with-hebench)
-- [Available Backends](hebench_published_backends.md)
-- [Getting Started](quickstart_guide.md)
-- [Governance](governance.md)
-- [Code of Conduct](conduct.md)
+- [Available Backends](https://hebench.org/benchmark)
+- [Getting Started](https://hebench.org/documentation/getting-started)
+- [Governance](https://hebench.org/about/governance)
+- [Code of Conduct](https://hebench.org/about/code-of-conduct)
 
 <br>
 
@@ -72,4 +72,4 @@ Users can benchmark their own implementations with HEBench (by creating their ow
 
 <br/>
 
-Back to [HEBench Home](README.md)
+Back to [HEBench Home](https://hebench.org/)

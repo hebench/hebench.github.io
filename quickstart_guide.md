@@ -1,15 +1,15 @@
 # Getting Started
 
-- [HEBench Home](README.md)
-- [About HEBench](about_hebench.md)
-- [Available Backends](hebench_published_backends.md)
+- [HEBench Home](https://hebench.org/)
+- [About HEBench](https://hebench.org/faq#what-is-hebench)
+- [Available Backends](https://hebench.org/benchmark)
 - Getting Started
   - [Benchmarking a Reference Backend](#benchmarking-a-reference-backend)
   - [Benchmarking a Custom Backend](#benchmarking-a-custom-backend)
   - [Adding New Workloads](#adding-new-workloads)
   - [References](#references)
-- [Governance](governance.md)
-- [Code of Conduct](conduct.md)
+- [Governance](https://hebench.org/about/governance)
+- [Code of Conduct](https://hebench.org/about/code-of-conduct)
 
 <br>
 
@@ -26,7 +26,7 @@ Also note that this is a general Getting Started guide using the Cleartext Refer
 
 <br/>
 
-1. Pick the Cleartext backend repository from the list of [published backends](hebench_published_backends.md), or visit direct link to [Cleartext backend repository](https://github.com/hebench/backend-cpu-cleartext).
+1. Pick the Cleartext backend repository from the list of [published backends](https://hebench.org/benchmark), or visit direct link to [Cleartext backend repository](https://github.com/hebench/backend-cpu-cleartext).
 
 2. Check the [readme](https://github.com/hebench/backend-cpu-cleartext/blob/main/README.md) for requirements to build the backend.
    Make sure the machine where the build will occur meets such requirements.
@@ -102,9 +102,9 @@ If there is a need to benchmark a workload that is not officially supported by H
 [Tutorial: Creating Custom Backend](https://hebench.github.io/frontend/simple_cpp_example.html)<br/>
 [Tutorial: Adding a New Workload to Test Harness](https://hebench.github.io/frontend/extend_test_harness.html)<br/>
 [HEBench Frontend](https://github.com/hebench/frontend)<br/>
-[Published Backends](hebench_published_backends.md)<br/>
+[Published Backends](https://hebench.org/benchmark)<br/>
 [HEBench Documentation](https://hebench.github.io/frontend/index.html)
 
 <br/>
 
-Back to [HEBench Home](README.md)
+Back to [HEBench Home](https://hebench.org/)

@@ -1,6 +1,6 @@
 # About HEBench
 
-- [HEBench Home](README.md)
+- [HEBench Home](https://hebench.org/)
 - About HEBench
   - [What is HEBench](#what-is-hebench)
     - [What is Homomorphic Encryption](#what-is-homomorphic-encryption)

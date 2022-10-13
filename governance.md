@@ -25,6 +25,7 @@ This is a living document, and it is expected to be updated over time to better 
 
 * 0.1 (Dec 7, 2021) Initial draft.
 * 0.2 (Aug 22, 2022) Draft to add approved membership and submission changes (Approved by Steering Team on Aug 5, 2022)
+* 1.0 (Oct 12, 2022) Governance wording approved (Approved by Steering Team on September 29, 2022)
 
 ## HEBench Framework
 

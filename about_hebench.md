@@ -63,6 +63,8 @@ A backend example is shipped with the frontend that contains a simple implementa
 
 **PALISADE backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses PALISADE lattice cryptography library for the HE operations.
 
+**HElib backend reference (CPU)**: A reference backend that performs the operations of some of the supported workloads. This is intended as a reference to an actual implementation of the workloads in the HE space. It uses the HElib homomorphic encryption library for the HE operations.
+
 ## What Can Be Done with HEBench
 Out of the box, users can run the benchmark from the API Bridge example, clear text, reference SEAL, and reference PALISADE backends. These run on CPU using the specified API support.
 

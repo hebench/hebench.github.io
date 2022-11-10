@@ -21,6 +21,7 @@ This guide will walk you through the steps of running the benchmark for the refe
 
 Also note that this is a general Getting Started guide using the Cleartext Reference Backend, please find quickstart guides to other reference backends below:
 
+- [HElib Reference Backend Quickstart Guide](https://hebench.github.io/reference-helib-backend/quickstart_guide.html)
 - [PALISADE Reference Backend Quickstart Guide](https://hebench.github.io/reference-palisade-backend/quickstart_guide.html)
 - [SEAL Refence Backend Quickstart Guide](https://hebench.github.io/reference-seal-backend/quickstart_guide.html)
 

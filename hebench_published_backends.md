@@ -13,6 +13,8 @@
 
 ## Reference Backends
 
+The HEBench Reference Backends are shared libraries that implement the required functions specified in either the hebench::APIBridge or hebench::cpp wrapper. They are intended only as a reference on how to implement a backend for HEBench using a particular library. **_None of these libraries are fully optimized for performance._**
+
   Repository   | Latest Update | Versions | Description
 -------------- | ------------ | ------------ | ------------
 [Cleartext Backend](https://github.com/hebench/backend-cpu-cleartext) | Oct 20, 2022 | Backend: v0.7.0-beta <br /> API Bridge: v0.7.1-beta <br /> N/A | Clear text backend which implements all tests without encryption.
